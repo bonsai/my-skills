@@ -16,7 +16,7 @@ idol-quiz	(data)	no-git	-	content/idol
 jade	(data)	no-git	-	data/db
 lm-bench	PY	git:synced	lm-bench	tool/bench
 logs	(data)	no-git	-	log
-opencode-skills	MD/PY	git:no-remote	-	skill/dotfiles
+opencode-skills	MD/PY	git:synced	opencode-skills	skill/dotfiles
 quiz-video	PY	no-git	-	content/video
 rooom	(data)	no-git	-	data/db
 sync-repos	SH	git:synced	sync-repos	devtool
