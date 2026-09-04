@@ -1,0 +1,1 @@
+Sample journal entry. This is placeholder content for a journal article.

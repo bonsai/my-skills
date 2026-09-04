@@ -1,0 +1,1 @@
+Sample idea snippet. This is placeholder content for an idea note.
