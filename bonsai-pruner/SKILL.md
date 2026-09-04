@@ -1,6 +1,7 @@
 ---
 name: bonsai-pruner
-description: Use when the user asks to prune, trim, slim down, clean up, or reduce code. Front-load keywords: pruner, 削ぎ落とす, プルーニング, dead code, unused, trim, slim, simplify, 簡素化, 整理, cut, reduce. Covers dead code removal, unused imports cleanup, logic simplification, duplication elimination, and dependency trimming.
+description: "Use when the user asks to prune, trim, slim down, clean up, or reduce code. Front-load keywords: pruner, 削ぎ落とす, プルーニング, dead code, unused, trim, slim, simplify, 簡素化, 整理, cut, reduce. Covers dead code removal, unused imports cleanup, logic simplification, duplication elimination, and dependency trimming."
+license: MIT
 ---
 
 # bonsai-pruner — コード削ぎ落とし

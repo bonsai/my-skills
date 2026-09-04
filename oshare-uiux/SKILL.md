@@ -1,3 +1,9 @@
+---
+name: oshare-uiux
+description: "idol-oshare の UI/UX 改修作業用リファレンス。ホワイトボードSPA (index.html) と BBSページ (bbs.html) のデザインシステム・カラーパレット7テーマ。Use when editing idol-oshare UI/UX or its design system. Keywords: idol-oshare, UI, UX, デザイン, ホワイトボード, oshare."
+license: MIT
+---
+
 # Skill: oshare-uiux
 
 idol-oshare の UI/UX 改修作業用リファレンス。

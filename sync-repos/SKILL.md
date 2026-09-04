@@ -1,6 +1,7 @@
 ---
 name: sync-repos
-description: Use when the user asks to sync local projects to GitHub, push repos, scan project directories, create GitHub repos, run CI workflows, or manage the sync-repos tool at ~/sync-repos (private repo bonsai/sync-repos). Keywords: sync-repos, 同期, sync, push, repo create, inventory, GitHub auth proxy, github-auth-proxy, projects dashboard. Use ONLY when the sync-repos tool or its Docker proxy is being used; do not use for general git operations.
+description: "Use when the user asks to sync local projects to GitHub, push repos, scan project directories, create GitHub repos, run CI workflows, or manage the sync-repos tool at ~/sync-repos (private repo bonsai/sync-repos). Keywords: sync-repos, 同期, sync, push, repo create, inventory, GitHub auth proxy, github-auth-proxy, projects dashboard. Use ONLY when the sync-repos tool or its Docker proxy is being used; do not use for general git operations."
+license: MIT
 ---
 
 # sync-repos

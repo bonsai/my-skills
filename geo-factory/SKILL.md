@@ -1,6 +1,7 @@
 ---
 name: geo-factory
-description: 幾何学的アニメーション動画を生成して再生する。mediapipe風顔メッシュ、幾何学スイッチング、変顔アニメーション。keywords: 幾何学, geo, facemesh, 顔, 変顔, animation, 動画生成, geometric
+description: "幾何学的アニメーション動画を生成して再生する。mediapipe風顔メッシュ、幾何学スイッチング、変顔アニメーション。keywords: 幾何学, geo, facemesh, 顔, 変顔, animation, 動画生成, geometric"
+license: MIT
 ---
 
 # Geo Factory

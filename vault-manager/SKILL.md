@@ -1,6 +1,7 @@
 ---
 name: vault-manager
 description: 暗号化バックアップ(vault)と秘密鍵のUSB持ち出し管理。Use ONLY when the user asks to バックアップ/vault/暗号化/復元/USB持ち出し/secrets.env/GPG鍵/vault-backup. Covers bonsai/vault private repo backup, usb-kit creation, restore steps.
+license: MIT
 ---
 
 # vault-manager — 暗号化バックアップ & USB持ち出し管理

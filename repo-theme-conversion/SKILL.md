@@ -1,6 +1,7 @@
 ---
 name: repo-theme-conversion
-description: Rebrand a codebase by replacing terminology and updating metadata. Use when the user wants to retheme/replace terms in a project (e.g., NEET Quest → Construction Quest). Keywords: retheme, rebrand, リテーマ, テーマ変更, 置換, replace terms, bulk rename, theme conversion.
+description: "Rebrand a codebase by replacing terminology and updating metadata. Use when the user wants to retheme/replace terms in a project (e.g., NEET Quest → Construction Quest). Keywords: retheme, rebrand, リテーマ, テーマ変更, 置換, replace terms, bulk rename, theme conversion."
+license: MIT
 ---
 
 # Repo Theme Conversion

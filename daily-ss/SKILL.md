@@ -3,6 +3,9 @@ name: daily-ss
 description: |
   Use when the user asks to write short stories, generate SS, or create 星新一風ショートショート.
   Reads random wiki content and generates 3 stories per day.
+license: MIT
+---
+
 ---
 
 # Daily Short Story Generator

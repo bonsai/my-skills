@@ -1,6 +1,7 @@
 ---
 name: bbs-manager
-description: Use ONLY when the user asks to start, stop, restart, check status, or manage the SB-BBS (掲示板) server at /home/bons/SERVER/3001-SB-BBS. Front-load keywords: 掲示板, bbs, board, sb-bbs, 3001-SB-BBS. Covers Java/Spring Boot startup on port 3000, portproxy setup, and health checks.
+description: "Use ONLY when the user asks to start, stop, restart, check status, or manage the SB-BBS (掲示板) server at /home/bons/SERVER/3001-SB-BBS. Front-load keywords: 掲示板, bbs, board, sb-bbs, 3001-SB-BBS. Covers Java/Spring Boot startup on port 3000, portproxy setup, and health checks."
+license: MIT
 ---
 
 # SB-BBS Manager

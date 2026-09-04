@@ -1,6 +1,7 @@
 ---
 name: port-manager
-description: Use ONLY when the user asks about port management, port usage, port history, or wants to register/query/release ports. Keywords: ポート, port, port-manager, ports.db, ポート履歴, ポート管理, port assignment. Manages all port allocations via SQLite database.
+description: "Use ONLY when the user asks about port management, port usage, port history, or wants to register/query/release ports. Keywords: ポート, port, port-manager, ports.db, ポート履歴, ポート管理, port assignment. Manages all port allocations via SQLite database."
+license: MIT
 ---
 
 # Port Manager (ポートマネージャー)

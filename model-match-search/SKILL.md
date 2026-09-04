@@ -1,6 +1,7 @@
 ---
 name: model-match-search
 description: このPCのスペックに合うAIモデル（動画生成/画像生成/LLM）を探す。PCの統計を収集し、モデルの要求スペックと照合して「このPCで動く/動かない」を判定する。Use when the user asks to find models their PC can run, このPCでもできるモデル, モデルマッチ, スペックに合うモデル, can this PC run X, model match search.
+license: MIT
 ---
 
 # Model Match Search

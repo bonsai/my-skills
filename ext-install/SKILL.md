@@ -1,6 +1,7 @@
 ---
 name: ext-install
-description: Use when the user wants to install or launch a browser extension via CLI from source code (not a built/zipped package). Keywords: 拡張をインストールして, 〇〇の拡張, browser extension install, --load-extension, 拡張ソース, extension source, cloneしてインストール, ソースのまま, .crx, crx pack, Edge, msedge. Covers cloning a GitHub repo, resolving the extension manifest, launching Edge/Chrome with the unpacked source, and packing to .crx for permanent installation.
+description: "Use when the user wants to install or launch a browser extension via CLI from source code (not a built/zipped package). Keywords: 拡張をインストールして, 〇〇の拡張, browser extension install, --load-extension, 拡張ソース, extension source, cloneしてインストール, ソースのまま, .crx, crx pack, Edge, msedge. Covers cloning a GitHub repo, resolving the extension manifest, launching Edge/Chrome with the unpacked source, and packing to .crx for permanent installation."
+license: MIT
 ---
 
 # ext-install — 拡張ソースを CLI でインストール＆起動

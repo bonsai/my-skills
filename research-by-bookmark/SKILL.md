@@ -1,6 +1,7 @@
 ---
 name: research-by-bookmark
 description: Use when the user asks to analyze bookmarks, extract research interests, organize bookmarks, find research directions from bookmarks, ブックマーク分析, ブックマーク整理, リサーチ方向, bookmark research, or wants to understand their interests from saved links. Covers Edge bookmark export → HTML parse → categorization → research direction proposal.
+license: MIT
 ---
 
 # research-by-bookmark — ブックマークからリサーチ方向を導く

@@ -1,6 +1,7 @@
 ---
 name: play-mp4
-description: MP4ファイルを探して再生する。動画ファイルの再生、起動。keywords: mp4, 再生, play, 動画, video, start, open
+description: "MP4ファイルを探して再生する。動画ファイルの再生、起動。keywords: mp4, 再生, play, 動画, video, start, open"
+license: MIT
 ---
 
 # Play MP4

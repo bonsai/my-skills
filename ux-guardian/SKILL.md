@@ -1,3 +1,9 @@
+---
+name: ux-guardian
+description: "UXガーディアン — ユーザーが迷わないかを死守するUI審査者。UI変更が分かりやすく・直感的・迷わないを厳格に審査する。Use when reviewing UI changes for clarity, confusion, or user mistake risk. Keywords: UX, UI審査, ガーディアン, 戸惑い, 混乱, 操作ミス, review."
+license: MIT
+---
+
 # Skill: ux-guardian
 
 ## ロール

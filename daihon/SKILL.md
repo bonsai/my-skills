@@ -1,6 +1,7 @@
 ---
 name: daihon
-description: Use ONLY when the user asks to generate a comedy routine (漫才/ネタ) as an MP3 via the daihon pipeline at /home/bons/daihon. Front-load keywords: 漫才, ネタ, お笑い, コメディ, MP3, 音声, 芸人, ボケ, ツッコミ, daihon, comedy, routine. Natural-language requests like 「ラーメンの漫才MP3を作って」 trigger this. Covers ネタ生成 → 予選 → 本戦 → TTS → MP3出力.
+description: "Use ONLY when the user asks to generate a comedy routine (漫才/ネタ) as an MP3 via the daihon pipeline at /home/bons/daihon. Front-load keywords: 漫才, ネタ, お笑い, コメディ, MP3, 音声, 芸人, ボケ, ツッコミ, daihon, comedy, routine. Natural-language requests like 「ラーメンの漫才MP3を作って」 trigger this. Covers ネタ生成 → 予選 → 本戦 → TTS → MP3出力."
+license: MIT
 ---
 
 # daihon — 漫才MP3生成
