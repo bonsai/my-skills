@@ -38,3 +38,12 @@ ln -s ~/repos/my-skills/* ~/.agents/skills/
 | ux-guardian | opencode | UX review guard |
 | vanilla-web-dev | pi | Vanilla TS web dev |
 | vault-manager | opencode | Encrypted backup |
+
+## dev 系(汎用開発マイクロスキル)
+- dev-docs-driven — ドキュメント駆動開発
+- dev-tdd-vitest — vitest テスト先行実装
+- dev-sprint10 — 10分スプリント(会議+実装)
+- dev-progress-board — 進捗の色分け確認
+- dev-decision-adr — 選択肢提示→ADR 化
+- dev-recap — セッション振り返り保存
+- voice-bbs-dev — Voice BBS プロジェクト設定(上記へ委譲)
