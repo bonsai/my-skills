@@ -35,7 +35,7 @@ tool/
 
 # embedded git repos (owned by their own bonsai/<name> repo)
 Programming-Books/
-aw.tui/
+aw/
 dotfiles/
 hamachi/
 idol-lab/
