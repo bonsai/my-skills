@@ -1,1 +1,41 @@
 .agents/
+*.db
+
+# agent repos (repo-ized as bonsai/<name>, not folded into my-skills)
+architecture-agent/
+benkey-sec/
+hermes/
+hiedanoare/
+kimura/
+mito/
+model-picker/
+strategic-advisors/
+tsubame/
+yoshida/
+GoEmon/
+model-manager/
+ms-skills/
+soubi-ts/
+
+# workspace dirs (not skills)
+agents/
+backups/
+bin/
+db/
+skills/
+state/
+tool/
+
+# embedded git repos (owned by their own bonsai/<name> repo)
+Programming-Books/
+aw.tui/
+dotfiles/
+hamachi/
+idol-lab/
+idol-quiz/
+shizuka/
+soubi/
+voice-bbs-web/
+
+# runtime artifacts
+port-manager/ports.db

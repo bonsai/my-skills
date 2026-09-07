@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Port Manager - ポート履歴管理ツール"""
+"""Natalie (ナタリー) - ポート履歴管理ツール"""
 import sqlite3, sys, os
 
-DB = os.path.expanduser("~/.opencode/skills/port-manager/ports.db")
+DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ports.db")
 
 def get_db():
     conn = sqlite3.connect(DB)
@@ -76,7 +76,7 @@ def scan():
 if __name__ == '__main__':
     init_db()
     if len(sys.argv) < 2:
-        print("Usage: port-manager.py [status|scan|register <port> <service> [path] [pid] [notes]]|release <port>")
+        print("Usage: natalie.py [status|scan|register <port> <service> [path] [pid] [notes]]|release <port>")
         sys.exit(0)
     cmd = sys.argv[1]
     if cmd == 'status': status()

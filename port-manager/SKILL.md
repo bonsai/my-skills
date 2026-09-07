@@ -1,12 +1,12 @@
 ---
-name: port-manager
-description: "Use ONLY when the user asks about port management, port usage, port history, or wants to register/query/release ports. Keywords: ポート, port, port-manager, ports.db, ポート履歴, ポート管理, port assignment. Manages all port allocations via SQLite database."
+name: natalie
+description: "Use ONLY when the user asks about port management, port usage, port history, or wants to register/query/release ports. Keywords: ポート, natalie, ナタリー, port, ports.db, ポート履歴, ポート管理, port assignment. Manages all port allocations via SQLite database."
 license: MIT
 ---
 
-# Port Manager (ポートマネージャー)
+# Natalie (ナタリー) — Port Manager
 
-Manages all port assignments via SQLite database at `~/.opencode/skills/port-manager/ports.db`.
+Port management assistant. Manages all port assignments via SQLite database at `~/.config/opencode/skills/natalie/ports.db`.
 
 ## Database Schema
 
@@ -25,32 +25,32 @@ CREATE TABLE IF NOT EXISTS ports (
 
 ## Commands (all via Python script)
 
-Script: `~/.opencode/skills/port-manager/port-manager.py`
+Script: `~/.config/opencode/skills/natalie/natalie.py`
 
 ### Status (all active + history)
 ```bash
-python3 ~/.opencode/skills/port-manager/port-manager.py status
+python3 ~/.config/opencode/skills/natalie/natalie.py status
 ```
 
 ### Register
 ```bash
-python3 ~/.opencode/skills/port-manager/port-manager.py register <PORT> <SERVICE> [PATH] [PID] [NOTES]
+python3 ~/.config/opencode/skills/natalie/natalie.py register <PORT> <SERVICE> [PATH] [PID] [NOTES]
 ```
 
 ### Release
 ```bash
-python3 ~/.opencode/skills/port-manager/port-manager.py release <PORT>
+python3 ~/.config/opencode/skills/natalie/natalie.py release <PORT>
 ```
 
 ### Scan OS & sync DB
 ```bash
-python3 ~/.opencode/skills/port-manager/port-manager.py scan
+python3 ~/.config/opencode/skills/natalie/natalie.py scan
 ```
 
 ### Direct SQL via Python (no sqlite3 CLI needed)
 ```python
 import sqlite3
-conn = sqlite3.connect(os.path.expanduser("~/.opencode/skills/port-manager/ports.db"))
+conn = sqlite3.connect(os.path.expanduser("~/.config/opencode/skills/natalie/ports.db"))
 # query here
 ```
 
@@ -68,3 +68,5 @@ conn = sqlite3.connect(os.path.expanduser("~/.opencode/skills/port-manager/ports
 |------|---------|------|
 | 3000 | SB-BBS (掲示板) | /home/bons/SERVER/3001-SB-BBS |
 | 3019 | SB-BBS admin | /home/bons/SERVER/3001-SB-BBS |
+| 5173 | voice-bbs-web | /home/bons/repos/voice-bbs-web/apps/web-vue |
+| — | extreme-norikae (future) | /home/bons/repos/extreme-norikae |

@@ -1,0 +1,55 @@
+[
+  {
+    "port": 53,
+    "service": "unknown",
+    "path": null,
+    "status": "active",
+    "pid": null,
+    "started_at": "2026-07-14 14:05:00",
+    "stopped_at": null,
+    "notes": "auto-detected"
+  },
+  {
+    "port": 3000,
+    "service": "SB-BBS",
+    "path": "/home/bons/SERVER/3001-SB-BBS",
+    "status": "active",
+    "pid": 6950,
+    "started_at": "2026-07-14 14:04:17",
+    "stopped_at": null,
+    "notes": "掲示板 Spring Boot",
+    "stopped": "止め方: lsof -ti:3000 | xargs kill -9"
+  },
+  {
+    "port": 3019,
+    "service": "SB-BBS-admin",
+    "path": "/home/bons/SERVER/3001-SB-BBS",
+    "status": "active",
+    "pid": 6950,
+    "started_at": "2026-07-14 14:21:04",
+    "stopped_at": null,
+    "notes": "admin port",
+    "stopped": "止め方: SB-BBS本体と同じ (admin port 3019 も同一Javaプロセスのため lsof -ti:3000 | xargs kill -9)"
+  },
+  {
+    "port": 5173,
+    "service": "voice-bbs-web",
+    "path": "/home/bons/repos/voice-bbs-web/apps/web-vue",
+    "status": "active",
+    "pid": null,
+    "started_at": "2026-09-04 14:27:49",
+    "stopped_at": null,
+    "notes": "local dev server",
+    "stopped": "止め方: kill <vite-pid>  (現在 PID 46782)。例: kill 46782"
+  },
+  {
+    "port": null,
+    "service": "extreme-norikae",
+    "path": "/home/bons/repos/extreme-norikae",
+    "status": "future",
+    "pid": null,
+    "started_at": null,
+    "stopped_at": null,
+    "notes": "駅徒歩乗換・地図/距離計算プロジェクト (TS)。AGENTS.md 優先順位1。ディレクトリ未作成・起動なし。dev port 未確定"
+  }
+]

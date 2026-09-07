@@ -27,7 +27,6 @@ ln -s ~/repos/my-skills/* ~/.agents/skills/
 | ext-install | opencode | Browser extension installer |
 | geo-factory | opencode | Geometric animation |
 | mala | pi | MALA inspection ontology |
-| microsoft-foundry | pi | Microsoft Foundry (ported) |
 | model-match-search | opencode | PC spec → model matching |
 | oshare-uiux | opencode | idol-oshare UI/UX |
 | play-mp4 | opencode | MP4 playback |
