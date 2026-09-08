@@ -44,5 +44,9 @@ shizuka/
 soubi/
 voice-bbs-web/
 
+# local skill dirs (physical home, not in this index repo)
+gh-aw/
+agent-mala/
+
 # runtime artifacts
 port-manager/ports.db
